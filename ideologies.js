@@ -320,7 +320,7 @@ ideologies = [
             "dipl": 10,
             "mil": 80,
             "auth": 90,
-            "econ": 45,
+            "econ": 50,
             "rel": 80,
             "scty": 10,
             "cult": 80
@@ -345,15 +345,15 @@ ideologies = [
         "name": "The Coalition of Joint-Stock Feudalists",
         "description": "Summary: <br>JSF is a radical form of capitalism which demands that both the state and local governments are entirely privatized by means of transformation into a joint-stock sovereign corporation (sovcorp). We believe that economic inequality should be a natural continuation of the innate biological inequalities in any given society. Citizens who own few or no shares will not have political power but will have the so-called unconditional right to leave his or her local region. The size of the average region will be much smaller under our command, enticing competition between individual sovcorps. <br>The ideal state according to JSF is based on classic medieval Feudalism and follows a modernized form of the Three-Estate Model. Each estate is granted one Board or House within the governmental body, which take decisions with or without supervision from an absolute monarch.<br>The First Estate consists of technocrats, elder statesmen, philosophers, scientists and clerics who hold a supervisory role.<br>The Second Estate consists of active large-scale shareholders and entrepreneurs who take decisions from a for-profit, corporatist perspective.<br>The Third Estate consists of representatives elected by small-scale shareholders and is comparable to a customer representation organ. An optional, limited number of seats can be given to stakeholder representatives.<br>Ideologies: Capitalism, Capitostatism, Authoritarian Capitalism, Feudalism, Absolute Monarchy, Technocracy, Corporatism, Christian Theocracy.<br>Position: (10, 0) on the political compass, as our beliefs vary between (10, 7.5) and (10, -7.5) and average out to that number.",
         "stats": {
-            "state": 70,
+            "state": 40,
             "govt": 30,
             "dipl": 50,
             "mil": 50,
             "auth": 70,
             "econ": 10,
-            "rel": 40,
-            "scty": 40,
-            "cult": 50
+            "rel": 20,
+            "scty": 35,
+            "cult": 75
         }
     },
     {
