@@ -321,7 +321,7 @@ ideologies = [
             "mil": 80,
             "auth": 90,
             "econ": 45,
-            "rel": 40,
+            "rel": 80,
             "scty": 10,
             "cult": 80
         }
@@ -369,22 +369,6 @@ ideologies = [
             "rel": 85,
             "scty": 50,
             "cult": 50
-        }
-    },
-    {
-        "name": "Anti-Compass Action",
-        "description": "All parties that have been tried before failed, for they failed to form utopias. This is why we need something new.<br>Ideologies: ego-Orwellian communo-Darwinist post-humanist primalist accelerationism",
-        "stats": {
-
-            "state": {},
-            "mil": {},
-            "auth": {},
-            "rel": {},
-            "cult": {},
-            "econ": {},
-            "dipl": {},
-            "govt": {},
-            "scty": {}
         }
     },
     {
