@@ -1,3 +1,4 @@
+
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
@@ -177,26 +178,26 @@
     ideology = ""
     ideodist = Infinity
     dist_dic = {}
-    for (var i = 0; i < ideologies.length; i++) {
+    for (var x = 0; x < ideologies.length; x++) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.state - a), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.govt - b), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - c), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.mil - d), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.auth - e), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - f), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.rel - g), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.scty - h), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.cult - i), 1.73856063)
-        if (ideologies[i].name in dist_dic) {
-            dist_dic[ideologies[i].name] = Math.min(dist, dist_dic[ideologies[i].name])
+        dist += Math.pow(Math.abs(ideologies[x].stats.state - a), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[x].stats.govt - b), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[x].stats.dipl - c), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[x].stats.mil - d), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[x].stats.auth - e), 2)
+        dist += Math.pow(Math.abs(ideologies[x].stats.econ - f), 2)
+        dist += Math.pow(Math.abs(ideologies[x].stats.rel - g), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[x].stats.scty - h), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[x].stats.cult - i), 1.73856063)
+        if (ideologies[x].name in dist_dic) {
+            dist_dic[ideologies[x].name] = Math.min(dist, dist_dic[ideologies[x].name])
         }
         else {
-            dist_dic[ideologies[i].name] = dist
+            dist_dic[ideologies[x].name] = dist
         }
         if (dist < ideodist) {
-            ideology = ideologies[i].name
-            description = ideologies[i].description
+            ideology = ideologies[x].name
+            description = ideologies[x].description
             ideodist = dist
         }
     }
@@ -209,10 +210,10 @@
     function getNextCompatatility(dist_dic) {
         var ideology = ""
         var dist = Infinity
-        for (let i in dist_dic) {
-            if (dist_dic[i] < dist) {
-                ideology = i
-                dist = dist_dic[i]
+        for (let x in dist_dic) {
+            if (dist_dic[x] < dist) {
+                ideology = x
+                dist = dist_dic[x]
             }
         }
         dist_dic[ideology] = Infinity
@@ -222,7 +223,7 @@
         document.getElementById("other-ideologies").appendChild(p)
     }
 
-    for ( i = 0; i < Object.keys(dist_dic).length; i++ ) {
+    for ( y = 0; y < Object.keys(dist_dic).length; y++ ) {
         getNextCompatatility(dist_dic)
     }
 
