@@ -372,6 +372,21 @@ ideologies = [
         }
     },
     {
+        "name": "Terry Party",
+        "description": "In memory of Terry A. Davis.<br>We seek to communicate with god and with talking space aliens to find the best solutions to all problems. We will run over any CIA operatives in Patrium and increase support for people suffering with mental disabilities and for the homeless. We oppose Atheism and Evolution and will ban them. We will make intel run TempleOS as a default operating system. Anyone disrespecting Terry will be kicked out of the party. We also like Elephants and God likes Elephant.",
+        "stats": {
+            "state": 40,
+            "govt": 60,
+            "dipl": 40,
+            "mil": 30,
+            "auth": 50,
+            "econ": 50,
+            "rel": 30,
+            "scty": 80,
+            "cult": 70
+        }
+    },
+    {
         "name": "Anti-Compass Action",
         "description": "All parties that have been tried before failed, for they failed to form utopias. This is why we need something new.<br>Ideologies: ego-Orwellian communo-Darwinist post-humanist primalist accelerationism",
         "stats": {
