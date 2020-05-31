@@ -334,7 +334,7 @@ ideologies = [
             "govt": 95,
             "dipl": 100,
             "mil": 50,
-            "auth": 100,
+            "auth": 0,
             "econ": 90,
             "rel": 95,
             "scty": 100,
