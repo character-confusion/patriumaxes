@@ -330,15 +330,15 @@ ideologies = [
         "name": "Libertarian Socialist Federation",
         "description": "Platform:<br>Governance: Stateless, federative participatory liquid e-democracy composed of several nested democratic councils dedicated to managing societal functions. No victimless crimes, decriminalize all drugs, internet rights. Anarchist, egoist, anti-state.<br>Economy: Mixture of democratic planning between workers' & consumers' unions (for essential/community goods & services) and a fair market of co-operative enterprise. Mutual credit cryptocurrency. Land rents => governance + UBI (surplus). Abolish ownership of natural resources, intellectual property. Workers' rights, pro-unions, syndicalist.<br>Culture: Feminism, LGBTQ+, equality, pro-choice, anti-intervention, trans rights, animal liberation/rights, vegetarianism, post-humanism, techno-accelerationism, eco-technology, environmentalism, progressivism, revolutionary. Space travel, pro-science/technology, space communism. Anti-theism, anti-clericalism, rationalism.<br>Foreign: Open borders, internationalism (worldwide confederation), anti-nationalism, aid revolutionary movements worldwide. Wörldist, brotherhood of man.<br>Ideologies: Anarchism, Socialism, Communism, Syndicalism, Collectivism, Individualism, Wörldism, Mutualism, Veganarchism, Post-Humanism, Piratism, Soulism, Environmentalism, FALSAC, Progressivism<br>Position: below bottom-corner, off-compass libleft",
         "stats": {
-            "state": 95,
+            "state": 85,
             "govt": 95,
-            "dipl": 100,
-            "mil": 50,
+            "dipl": 90,
+            "mil": 10,
             "auth": 0,
             "econ": 90,
-            "rel": 95,
-            "scty": 100,
-            "cult": 10
+            "rel": 90,
+            "scty": 95,
+            "cult": 0
         }
     },
     {
